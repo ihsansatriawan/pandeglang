@@ -16,6 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ asset('packages/bootstrap/css/navbar-fixed-top.css')}}" />
+    <link rel="stylesheet" href="{{ asset('packages/bootstrap/css/carousel.css')}}" />
     <style>
       #map-container { height: 400px }
     </style>
@@ -36,9 +37,9 @@
             <li><a href="#">Belanja Daerah</a></li>
             <li><a href="#">Indikator Kinerja</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">SUARA WARGA</a></li>
-          </ul>
+          <div class="navbar-form navbar-right">
+            <a href="#" class="btn btn-info" role="button">SUARA WARGA</a>
+          </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -179,7 +180,14 @@
         </div>
       </div>
 
+        <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2015 Pemda Pandeglang &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
     </div> <!-- /container -->
+
+  
 
 
     <!-- Bootstrap core JavaScript

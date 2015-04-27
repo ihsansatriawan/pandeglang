@@ -37,7 +37,7 @@
             <li><a href="#">Indikator Kinerja</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">SUARA WARGA</a></li>
+            <li class="label label-info"><a href="#">SUARA WARGA</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -181,7 +181,7 @@
 
     </div> <!-- /container -->
 
-
+   
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
