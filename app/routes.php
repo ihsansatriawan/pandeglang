@@ -13,5 +13,34 @@
 
 Route::get('/', function()
 {
-	return View::make('home');
+	return View::make('profil');
 });
+
+
+Route::get('/potensi-daerah', function()
+{
+	return View::make('potensidaerah');
+});
+
+Route::get('/ringkasan-apbd', function()
+{
+	return View::make('ringkasanapbd');
+});
+
+Route::get('/pad', function()
+{
+	return View::make('pad');
+});
+
+Route::get('/belanja-daerah', function()
+{
+	return View::make('belanjadaerah');
+});
+
+Route::get('/indikator-kerja', function()
+{
+	return View::make('indikatorkerja');
+});
+
+
+

@@ -19,6 +19,11 @@
     <link rel="stylesheet" href="{{ asset('packages/bootstrap/css/carousel.css')}}" />
     <style>
       #map-container { height: 400px }
+
+      #FixDivSideRight {
+        height: 400px;
+        overflow: auto;
+      }
     </style>
 
   </head>
@@ -30,12 +35,12 @@
       <div class="container">
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Profil</a></li>
-            <li class="active"><a href="#">Potensi Daerah</a></li>
-            <li><a href="#">Ringkasan APBD</a></li>
-            <li><a href="#">PAD</a></li>
-            <li><a href="#">Belanja Daerah</a></li>
-            <li><a href="#">Indikator Kinerja</a></li>
+            <li><a href="/">Profil</a></li>
+            <li><a href="/potensi-daerah">Potensi Daerah</a></li>
+            <li><a href="/ringkasan-apbd">Ringkasan APBD</a></li>
+            <li class="active"><a href="/pad">PAD</a></li>
+            <li><a href="/belanja-daerah">Belanja Daerah</a></li>
+            <li><a href="/indikator-kerja">Indikator Kinerja</a></li>
           </ul>
           <div class="navbar-form navbar-right">
             <a href="#" class="btn btn-info" role="button">SUARA WARGA</a>
@@ -50,7 +55,7 @@
       <div class="row">
         <div class="col-md-12">
           <div id="map-container" class="col-md-8"></div>
-          <div class="col-md-4">
+          <div id="FixDivSideRight" class="col-md-4">
               <table class="table table-bordered">
               <tr>
                 <th>35 Kecamatan</th>
@@ -85,10 +90,20 @@
               <tr>
                 <td>Mark</td>
               </tr>
+              <tr>
+                <td>Denton</td>
+              </tr>
+              <tr>
+                <td>Ezekiel</td>
+              </tr>
+              <tr>
+                <td>Mark</td>
+              </tr>
               </table>
           </div>
         </div>
       </div>
+      <br>
       <div class="row">
         <div class="col-md-12">
           <table class="table table-bordered">
@@ -183,7 +198,7 @@
         <!-- FOOTER -->
     <footer>
       <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2015 Pemda Pandeglang &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; 2015 Pemda Pandeglang </p>
     </footer>
     </div> <!-- /container -->
 
